@@ -19,7 +19,7 @@ MENULLEXTENSION_API bool MELoader( me::game::IGame * gameInstance, const qxml::E
 
 	// Add game component to our game instance. 
 	// Requires a custom deleter which, because it's local to the DLL will used the DLL's memory block.
-	gameInstance->AddComponent( me::game::IGameComponent::ptr( component, DeleterNullExtension ) );
+	gameInstance->AddComponent( me::game::component::IGameComponent::ptr( component, DeleterNullExtension ) );
 
 	return true;
 }

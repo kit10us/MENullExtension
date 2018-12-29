@@ -4,11 +4,11 @@
 #pragma once
 
 #include <MENullExtension.h>
-#include <me/scene/SceneComponent.h>
+#include <me/scene/component/SceneComponent.h>
 
 namespace nullns
 {
-	class SceneComponent : public me::scene::SceneComponent
+	class SceneComponent : public me::scene::component::SceneComponent
 	{
 	public:
 		static char* Name();

@@ -2,11 +2,11 @@
 // All Rights Reserved
 
 #include <MENullExtension.h>
-#include <me/game/GameComponent.h>
+#include <me/game/component/GameComponent.h>
 
 namespace nullns
 {
-	class GameComponent : public me::game::GameComponent
+	class GameComponent : public me::game::component::GameComponent
 	{
 	public:
 		static char* Name();

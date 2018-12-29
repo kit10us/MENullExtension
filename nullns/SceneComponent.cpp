@@ -2,7 +2,7 @@
 // All Rights Reserved
 
 #include <nullns/SceneComponent.h>
-#include <me/scene/SceneComponent.h>
+#include <me/scene/component/SceneComponent.h>
 
 using namespace nullns;
 
@@ -12,7 +12,7 @@ char* SceneComponent::Name()
 }
 
 SceneComponent::SceneComponent( me::os::IOS * os )
-	: me::scene::SceneComponent( os, Name() )
+	: me::scene::component::SceneComponent( os, Name() )
 {
 }
 

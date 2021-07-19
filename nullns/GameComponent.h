@@ -9,7 +9,7 @@ namespace nullns
 	class GameComponent : public me::game::component::GameComponent
 	{
 	public:
-		static char* Name();
+		static const char* Name();
 
 		GameComponent();
 		~GameComponent();

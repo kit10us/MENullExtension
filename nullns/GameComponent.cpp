@@ -7,7 +7,7 @@
 
 using namespace nullns;
 
-char* GameComponent::Name()
+const char* GameComponent::Name()
 {
 	return "MENullExtensionGameComponent";
 }

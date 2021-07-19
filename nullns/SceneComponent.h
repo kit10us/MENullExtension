@@ -11,7 +11,7 @@ namespace nullns
 	class SceneComponent : public me::scene::component::SceneComponent
 	{
 	public:
-		static char* Name();
+		static const char* Name();
 
 		SceneComponent( me::os::IOS * os );
 		~SceneComponent();

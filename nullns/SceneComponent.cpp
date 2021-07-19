@@ -6,7 +6,7 @@
 
 using namespace nullns;
 
-char* SceneComponent::Name()
+const char* SceneComponent::Name()
 {
 	return "MENullSceneComponent";
 }
